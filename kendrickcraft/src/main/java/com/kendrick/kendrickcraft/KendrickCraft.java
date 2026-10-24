@@ -8,6 +8,7 @@ public class KendrickCraft {
     public static final String MODID = "kendrickcraft";
 
     public KendrickCraft(IEventBus bus) {
+        ModBlocks.BLOCKS.register(bus);
         ModItems.ITEMS.register(bus);
         ModEntities.ENTITIES.register(bus);
         ModTabs.TABS.register(bus);

@@ -4,9 +4,9 @@ license="MIT"
 
 [[mods]]
 modId="kendrickcraft"
-version="1.0.0"
+version="1.1.0"
 displayName="Kendrick Craft"
-description='''Armas, coches, aviones, el comando /go to sol y un mundo Tierra continuo.'''
+description='''Vehículos, computadora interactiva con minijuego, bloques de aeropuerto y tren de aterrizaje visual.'''
 
 [[dependencies.kendrickcraft]]
 modId="neoforge"

@@ -8,7 +8,6 @@ public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(KendrickCraft.MODID);
 
     public static final DeferredItem<Item> BULLET = ITEMS.registerSimpleItem("bullet", new Item.Properties());
-    // daño, cooldown (ticks), alcance, perdigones, dispersión
     public static final DeferredItem<Item> PISTOL = ITEMS.register("pistol",
             () -> new GunItem(new Item.Properties().stacksTo(1), 6f, 10, 64, 1, 0.6f));
     public static final DeferredItem<Item> RIFLE = ITEMS.register("rifle",
@@ -23,4 +22,17 @@ public class ModItems {
             () -> new VehicleItem(new Item.Properties().stacksTo(1), ModEntities.CAR::get));
     public static final DeferredItem<Item> PLANE = ITEMS.register("plane",
             () -> new VehicleItem(new Item.Properties().stacksTo(1), ModEntities.PLANE::get));
+
+    public static final DeferredItem<BlockItem> COMPUTER = ITEMS.register("computer",
+            () -> new BlockItem(ModBlocks.COMPUTER.get(), new Item.Properties()));
+    public static final DeferredItem<BlockItem> RUNWAY = ITEMS.register("runway",
+            () -> new BlockItem(ModBlocks.RUNWAY.get(), new Item.Properties()));
+    public static final DeferredItem<BlockItem> TAXIWAY = ITEMS.register("taxiway",
+            () -> new BlockItem(ModBlocks.TAXIWAY.get(), new Item.Properties()));
+    public static final DeferredItem<BlockItem> HANGAR_PANEL = ITEMS.register("hangar_panel",
+            () -> new BlockItem(ModBlocks.HANGAR_PANEL.get(), new Item.Properties()));
+    public static final DeferredItem<BlockItem> AIRPORT_LIGHT = ITEMS.register("airport_light",
+            () -> new BlockItem(ModBlocks.AIRPORT_LIGHT.get(), new Item.Properties()));
+    public static final DeferredItem<BlockItem> HELIPAD = ITEMS.register("helipad",
+            () -> new BlockItem(ModBlocks.HELIPAD.get(), new Item.Properties()));
 }

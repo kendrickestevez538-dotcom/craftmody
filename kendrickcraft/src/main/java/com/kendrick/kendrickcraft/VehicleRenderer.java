@@ -11,7 +11,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockState;
 
-/** Dibuja coches y aviones armados con bloques escalados. Cámbialo por un modelo de Blockbench cuando quieras. */
+/** Renderizado de los vehículos y del tren de aterrizaje visual. */
 public class VehicleRenderer extends EntityRenderer<DrivableEntity> {
     public VehicleRenderer(EntityRendererProvider.Context ctx) { super(ctx); }
 
@@ -39,6 +39,7 @@ public class VehicleRenderer extends EntityRenderer<DrivableEntity> {
             BlockState white = Blocks.WHITE_CONCRETE.defaultBlockState(), red = Blocks.RED_CONCRETE.defaultBlockState(),
                     gray = Blocks.GRAY_CONCRETE.defaultBlockState(), glass = Blocks.LIGHT_BLUE_STAINED_GLASS.defaultBlockState(),
                     black = Blocks.BLACK_CONCRETE.defaultBlockState();
+            // Fuselaje, alas, cola, cabina y hélice.
             box(ps, b, light, white, 0, 0.3, 0, 0.7, 0.7, 3.2);
             box(ps, b, light, gray, 0, 0.4, 1.8, 0.5, 0.5, 0.4);
             box(ps, b, light, red, 0, 0.55, 0.2, 5.0, 0.12, 0.9);
@@ -52,6 +53,12 @@ public class VehicleRenderer extends EntityRenderer<DrivableEntity> {
             box(ps, b, light, black, 0, 0, 0, 1.4, 0.08, 0.08);
             box(ps, b, light, black, 0, 0, 0, 0.08, 0.08, 1.4);
             ps.popPose();
+            if (ClientEvents.landingGearDown) {
+                // Dos ruedas principales y una rueda delantera: se ocultan al pulsar G.
+                box(ps, b, light, black, -0.65, -0.12, 0.75, 0.22, 0.42, 0.22);
+                box(ps, b, light, black, 0.65, -0.12, 0.75, 0.22, 0.42, 0.22);
+                box(ps, b, light, black, 0, -0.12, 1.55, 0.18, 0.32, 0.18);
+            }
         } else {
             BlockState body = Blocks.RED_CONCRETE.defaultBlockState(), black = Blocks.BLACK_CONCRETE.defaultBlockState(),
                     glass = Blocks.LIGHT_BLUE_STAINED_GLASS.defaultBlockState(), lamp = Blocks.YELLOW_CONCRETE.defaultBlockState();

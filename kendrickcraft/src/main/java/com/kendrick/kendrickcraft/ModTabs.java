@@ -13,7 +13,7 @@ public class ModTabs {
     public static final net.neoforged.neoforge.registries.DeferredHolder<CreativeModeTab, CreativeModeTab> MAIN =
             TABS.register("main", () -> CreativeModeTab.builder()
                     .title(Component.translatable("itemGroup.kendrickcraft"))
-                    .icon(() -> new ItemStack(ModItems.RIFLE.get()))
+                    .icon(() -> new ItemStack(ModItems.PLANE.get()))
                     .displayItems((p, out) -> ModItems.ITEMS.getEntries().forEach(i -> out.accept(i.get())))
                     .build());
 }
