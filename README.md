@@ -2,11 +2,6 @@
 
 Mod para Minecraft Java 1.21.1 con NeoForge 21.1.248. No depende de otros mods.
 
-## Compilar
-1. Instala JDK 21.
-2. Abre el proyecto en IntelliJ IDEA e importa Gradle, o ejecuta `./gradlew build` si el wrapper está incluido.
-3. El archivo `.jar` se genera en `build/libs/`. Copíalo a la carpeta `mods` de Minecraft.
-
 ## Funciones actuales descritas por el proyecto
 - `/go to sol`: viaja al Sol. En supervivencia/aventura puede ser mortal; en creativo no causa daño.
 - `/go to tierra`: viaja al mundo Tierra, con bordes conectados.
