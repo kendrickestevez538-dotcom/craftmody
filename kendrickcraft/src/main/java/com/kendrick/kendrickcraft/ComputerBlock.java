@@ -48,7 +48,7 @@ document.querySelector('#start').onclick=()=>{clearInterval(timer);clearInterval
     public ComputerBlock(BlockBehaviour.Properties properties) { super(properties); }
 
     @Override
-    protected InteractionResult useWithoutItem(BlockState state, Level level, BlockPos pos, Player player, BlockHitResult hit) {
+    public InteractionResult useWithoutItem(BlockState state, Level level, BlockPos pos, Player player, BlockHitResult hit) {
         if (!level.isClientSide) return InteractionResult.SUCCESS;
         try {
             Path page = FMLPaths.GAMEDIR.get().resolve("kendrickcraft-computer.html");
