@@ -1,0 +1,19 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '2.0.78'
+}
+version = '1.0.0'
+group = 'com.kendrick.kendrickcraft'
+base { archivesName = 'kendrickcraft' }
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+neoForge {
+    version = '21.1.248'   // misma versión que tu modpack
+    runs {
+        client { client() }
+        server { server(); programArgument '--nogui' }
+    }
+    mods { kendrickcraft { sourceSet sourceSets.main } }
+}
+repositories { mavenCentral() }
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }

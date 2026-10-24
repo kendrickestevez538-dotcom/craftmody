@@ -1,0 +1,3 @@
+{"type":"kendrickcraft:sol","generator":{"type":"minecraft:flat","settings":{"biome":"minecraft:desert","lakes":false,"features":false,
+ "layers":[{"block":"minecraft:bedrock","height":1},{"block":"minecraft:magma_block","height":60},{"block":"minecraft:glowstone","height":3}],
+ "structure_overrides":[]}}}
