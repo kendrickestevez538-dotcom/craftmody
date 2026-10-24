@@ -1,1 +1,6 @@
-{"parent":"minecraft:item/handheld","textures":{"layer0":"minecraft:item/iron_sword"}}
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "kendrickcraft:item/combat_knife"
+  }
+}
