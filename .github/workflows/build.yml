@@ -39,4 +39,7 @@ jobs:
         if: success() && contains(github.event.head_commit.message, 'Publish KendrickCraft 1.0.2')
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh release create v1.0.2 build/libs/*.jar --title "KendrickCraft 1.0.2" --notes "Corrección del mapa orbital: resolución aumentada, mapa más grande y actualización más ligera. Compatible con Minecraft Java 1.21.1 y NeoForge 21.1.248. Pulsa M para abrirlo."
+        run: |
+          gh release create v1.0.2 build/libs/kendrickcraft-1.0.2.jar \
+            --title "KendrickCraft 1.0.2" \
+            --notes "Corrección del mapa orbital: resolución aumentada, mapa más grande y actualización más ligera. Compatible con Minecraft Java 1.21.1 y NeoForge 21.1.248. Pulsa M para abrirlo."
