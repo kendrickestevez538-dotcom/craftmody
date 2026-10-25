@@ -40,3 +40,6 @@ Pista de aterrizaje, calle de rodaje, panel de hangar, luz de aeropuerto y helip
 ## Notas
 - El tren de aterrizaje con **G** es un cambio visual local.
 - Los bloques de aeropuerto son piezas colocables; no convierten automáticamente una zona en una pista funcional.
+
+
+Mapa orbital mejorado en KendrickCraft 1.0.2.
