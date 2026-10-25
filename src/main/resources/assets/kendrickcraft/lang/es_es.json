@@ -1,4 +1,21 @@
-{"itemGroup.kendrickcraft":"Kendrick Craft","item.kendrickcraft.bullet":"Munición","item.kendrickcraft.pistol":"Pistola",
-"item.kendrickcraft.rifle":"Rifle de asalto","item.kendrickcraft.shotgun":"Escopeta","item.kendrickcraft.sniper":"Francotirador",
-"item.kendrickcraft.combat_knife":"Cuchillo de combate","item.kendrickcraft.car":"Coche","item.kendrickcraft.plane":"Avión",
-"entity.kendrickcraft.car":"Coche","entity.kendrickcraft.plane":"Avión"}
+{
+  "itemGroup.kendrickcraft": "Kendrick Craft",
+  "item.kendrickcraft.bullet": "Munición",
+  "item.kendrickcraft.pistol": "Pistola",
+  "item.kendrickcraft.rifle": "Rifle de asalto",
+  "item.kendrickcraft.shotgun": "Escopeta",
+  "item.kendrickcraft.sniper": "Francotirador",
+  "item.kendrickcraft.combat_knife": "Cuchillo de combate",
+  "item.kendrickcraft.car": "Coche",
+  "item.kendrickcraft.plane": "Avión",
+  "item.kendrickcraft.computer": "Computadora interactiva",
+  "item.kendrickcraft.runway": "Pista de aterrizaje",
+  "item.kendrickcraft.taxiway": "Calle de rodaje",
+  "item.kendrickcraft.hangar_panel": "Panel de hangar",
+  "item.kendrickcraft.airport_light": "Luz de aeropuerto",
+  "item.kendrickcraft.helipad": "Helipuerto",
+  "entity.kendrickcraft.car": "Coche",
+  "entity.kendrickcraft.plane": "Avión",
+  "key.categories.kendrickcraft": "Kendrick Craft",
+  "key.kendrickcraft.orbit_map": "Abrir mapa orbital (M)"
+}

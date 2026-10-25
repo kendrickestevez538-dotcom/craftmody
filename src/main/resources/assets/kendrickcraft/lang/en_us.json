@@ -1,4 +1,21 @@
-{"itemGroup.kendrickcraft":"Kendrick Craft","item.kendrickcraft.bullet":"Ammo","item.kendrickcraft.pistol":"Pistol",
-"item.kendrickcraft.rifle":"Assault Rifle","item.kendrickcraft.shotgun":"Shotgun","item.kendrickcraft.sniper":"Sniper Rifle",
-"item.kendrickcraft.combat_knife":"Combat Knife","item.kendrickcraft.car":"Car","item.kendrickcraft.plane":"Plane",
-"entity.kendrickcraft.car":"Car","entity.kendrickcraft.plane":"Plane"}
+{
+  "itemGroup.kendrickcraft": "Kendrick Craft",
+  "item.kendrickcraft.bullet": "Ammo",
+  "item.kendrickcraft.pistol": "Pistol",
+  "item.kendrickcraft.rifle": "Assault Rifle",
+  "item.kendrickcraft.shotgun": "Shotgun",
+  "item.kendrickcraft.sniper": "Sniper Rifle",
+  "item.kendrickcraft.combat_knife": "Combat Knife",
+  "item.kendrickcraft.car": "Car",
+  "item.kendrickcraft.plane": "Plane",
+  "item.kendrickcraft.computer": "Interactive computer",
+  "item.kendrickcraft.runway": "Runway",
+  "item.kendrickcraft.taxiway": "Taxiway",
+  "item.kendrickcraft.hangar_panel": "Hangar panel",
+  "item.kendrickcraft.airport_light": "Airport light",
+  "item.kendrickcraft.helipad": "Helipad",
+  "entity.kendrickcraft.car": "Car",
+  "entity.kendrickcraft.plane": "Plane",
+  "key.categories.kendrickcraft": "Kendrick Craft",
+  "key.kendrickcraft.orbit_map": "Open orbital map (M)"
+}
