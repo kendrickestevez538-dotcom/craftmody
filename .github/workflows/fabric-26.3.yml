@@ -1,0 +1,30 @@
+name: Fabric 26.3 build
+
+on:
+  push:
+    branches: [fabric-26.3-port]
+    paths:
+      - "fabric-26.3/**"
+      - ".github/workflows/fabric-26.3.yml"
+  pull_request:
+    paths:
+      - "fabric-26.3/**"
+      - ".github/workflows/fabric-26.3.yml"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Java 25
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "25"
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: "9.6.0"
+      - name: Build Fabric project
+        run: gradle -p fabric-26.3 build
