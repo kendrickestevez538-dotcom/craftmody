@@ -11,7 +11,7 @@ import net.minecraft.world.level.levelgen.Heightmap;
 
 /** Mapa orbital basado en el terreno real que el cliente tiene cargado. */
 public class OrbitMapScreen extends Screen {
-    private static final int GRID = 96;
+    private static final int GRID = 192;
     private static final int UNKNOWN = 0xFF101827;
     private final int[] pixels = new int[GRID * GRID];
     private final int centerX;
@@ -49,7 +49,7 @@ public class OrbitMapScreen extends Screen {
     @Override
     public void tick() {
         super.tick();
-        if (!earthMode && ++refreshTicks >= 10) {
+        if (!earthMode && ++refreshTicks >= 20) {
             refreshTicks = 0;
             refreshMap();
         }
@@ -85,7 +85,7 @@ public class OrbitMapScreen extends Screen {
             g.drawCenteredString(font, "TIERRA • VISTA ORBITAL", width / 2, 40, 0xFFFFFFFF);
             g.drawCenteredString(font, "Globo ilustrativo del planeta", width / 2, height - 48, 0xFFB6C8DF);
         } else {
-            int mapSize = Math.max(96, Math.min(Math.min(width - 36, height - 92), 300));
+            int mapSize = Math.max(96, Math.min(Math.min(width - 36, height - 92), 480));
             int left = (width - mapSize) / 2;
             int top = (height - mapSize) / 2 - 5;
             g.fill(left - 3, top - 3, left + mapSize + 3, top + mapSize + 3, 0xFF6A8298);
@@ -101,7 +101,7 @@ public class OrbitMapScreen extends Screen {
             int mx = left + mapSize / 2, my = top + mapSize / 2;
             g.fill(mx - 4, my - 4, mx + 5, my + 5, 0xFFFFD54A);
             g.drawCenteredString(font, "MUNDO • Centro: " + centerX + ", " + centerZ + " • Escala: " + blocksPerPixel + " bloques/píxel", width / 2, 29, 0xFFFFFFFF);
-            g.drawCenteredString(font, "Los chunks no cargados aparecen oscuros; explora para cartografiar más.", width / 2, height - 47, 0xFFB6C8DF);
+            g.drawCenteredString(font, "Mapa de alta resolución • Las zonas no cargadas aparecen oscuras.", width / 2, height - 47, 0xFFB6C8DF);
         }
         super.render(g, mouseX, mouseY, partialTick);
     }
