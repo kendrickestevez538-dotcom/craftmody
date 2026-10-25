@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "kendrickcraft",
+  "version": "${version}",
+  "name": "KendrickCraft",
+  "description": "KendrickCraft Fabric port for Minecraft 26.3.",
+  "authors": ["Kendrick"],
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.kendrick.kendrickcraft.KendrickCraft"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
