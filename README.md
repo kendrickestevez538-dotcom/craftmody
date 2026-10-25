@@ -42,4 +42,4 @@ Pista de aterrizaje, calle de rodaje, panel de hangar, luz de aeropuerto y helip
 - Los bloques de aeropuerto son piezas colocables; no convierten automáticamente una zona en una pista funcional.
 
 
-Mapa orbital mejorado en KendrickCraft 1.0.2.
+KendrickCraft 1.0.2: mapa orbital de mayor resolución (192×192), más grande y con refresco optimizado.
