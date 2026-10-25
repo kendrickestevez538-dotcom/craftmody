@@ -1,5 +1,7 @@
 # Kendrick Craft ✈️💻🛰️
 
+**Versión actual del mod: 1.0.1**
+
 Mod para Minecraft Java **1.21.1** con **NeoForge 21.1.248**.
 
 ## Mapa orbital
