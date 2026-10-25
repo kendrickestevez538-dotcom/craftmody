@@ -17,5 +17,6 @@
   "entity.kendrickcraft.car": "Coche",
   "entity.kendrickcraft.plane": "Avión",
   "key.categories.kendrickcraft": "Kendrick Craft",
-  "key.kendrickcraft.toggle_gear": "Subir/bajar tren de aterrizaje (G)"
+  "key.kendrickcraft.toggle_gear": "Subir/bajar tren de aterrizaje (G)",
+  "key.kendrickcraft.orbit_map": "Abrir mapa orbital (M)"
 }

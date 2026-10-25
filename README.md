@@ -1,6 +1,14 @@
-# Kendrick Craft ✈️💻
+# Kendrick Craft ✈️💻🛰️
 
 Mod para Minecraft Java **1.21.1** con **NeoForge 21.1.248**.
+
+## Mapa orbital
+Pulsa **M** para abrir el mapa orbital:
+- **Mi mundo:** mapa cenital coloreado usando los bloques reales de los chunks cargados, con marcador de tu posición y controles de zoom.
+- **Tierra:** ilustración de un globo planetario en una vista espacial.
+- Usa **− Zoom** y **+ Zoom** para cambiar la escala; pulsa **Esc** para cerrar.
+
+**Importante:** el mapa de Minecraft representa el terreno de los chunks que el cliente tiene cargados en ese momento. Las zonas no cargadas aparecen oscuras; explora el mundo para que se carguen. Esta versión no escanea automáticamente todos los chunks guardados ni guarda un atlas completo entre sesiones. El modo Tierra es una ilustración estilizada, no una imagen satelital fotográfica.
 
 ## Vehículos y objetos
 - **Coche** y **avión** manejables desde la pestaña creativa Kendrick Craft.
@@ -8,25 +16,17 @@ Mod para Minecraft Java **1.21.1** con **NeoForge 21.1.248**.
 - Modelos de iconos personalizados para los objetos del mod.
 
 ## Computadora interactiva
-Coloca el bloque **Computadora interactiva** y haz clic derecho. El mod crea el archivo local `kendrickcraft-computer.html` en la carpeta del juego y lo abre en el navegador predeterminado del sistema.
-La página incluye:
-- Barra para abrir direcciones web o buscar en Google.
-- Accesos directos a Google, YouTube y Steam.
-- Minijuego de reflejos para tocar objetivos y sumar puntos.
-
-La computadora necesita un entorno de escritorio con navegador predeterminado configurado. El HTML se genera localmente; no se descarga desde un sitio externo.
+Coloca el bloque **Computadora interactiva** y haz clic derecho. El mod crea el archivo local kendrickcraft-computer.html en la carpeta del juego y lo abre en el navegador predeterminado. Incluye barra de búsqueda/direcciones, accesos a Google, YouTube y Steam, y un minijuego de reflejos.
 
 ## Bloques de aeropuerto
-Todos están disponibles en la pestaña creativa **Kendrick Craft** para construir el aeropuerto manualmente:
-- **Pista de aterrizaje**
-- **Calle de rodaje**
-- **Panel de hangar**
-- **Luz de aeropuerto** (emite luz)
-- **Helipuerto**
+Pista de aterrizaje, calle de rodaje, panel de hangar, luz de aeropuerto y helipuerto. Se encuentran en la pestaña creativa Kendrick Craft.
 
 ## Controles
 | Acción | Control |
 |---|---|
+| Abrir mapa orbital | **M** |
+| Zoom del mapa | Botones − / + |
+| Cerrar mapa | **Esc** |
 | Subir al coche o avión | Clic derecho |
 | Coche: acelerar/retroceder | W / S |
 | Coche: girar | A / D |
@@ -36,6 +36,5 @@ Todos están disponibles en la pestaña creativa **Kendrick Craft** para constru
 | Recoger un vehículo | Golpear el vehículo |
 
 ## Notas
-- El tren de aterrizaje con **G** es un cambio visual local para mostrar u ocultar las ruedas.
-- Los bloques de aeropuerto son piezas de construcción colocables; no convierten automáticamente una zona en una pista funcional.
-- Las funciones deben probarse en una instalación de Minecraft Java 1.21.1 + NeoForge 21.1.248.
+- El tren de aterrizaje con **G** es un cambio visual local.
+- Los bloques de aeropuerto son piezas colocables; no convierten automáticamente una zona en una pista funcional.

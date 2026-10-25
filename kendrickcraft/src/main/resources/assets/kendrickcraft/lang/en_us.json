@@ -17,5 +17,6 @@
   "entity.kendrickcraft.car": "Car",
   "entity.kendrickcraft.plane": "Plane",
   "key.categories.kendrickcraft": "Kendrick Craft",
-  "key.kendrickcraft.toggle_gear": "Toggle landing gear (G)"
+  "key.kendrickcraft.toggle_gear": "Toggle landing gear (G)",
+  "key.kendrickcraft.orbit_map": "Open orbital map (M)"
 }
