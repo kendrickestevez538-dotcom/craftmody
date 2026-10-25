@@ -1,11 +1,11 @@
 # Kendrick Craft ✈️💻🛰️
 
-**Versión actual del mod: 1.0.1**
+**Versión actual del mod: 1.0.2**
 
 Mod para Minecraft Java **1.21.1** con **NeoForge 21.1.248**.
 
 ## Mapa orbital
-Pulsa **M** para abrir el mapa orbital:
+Pulsa **M** para abrir el mapa orbital, ahora con más resolución y una vista más grande:
 - **Mi mundo:** mapa cenital coloreado usando los bloques reales de los chunks cargados, con marcador de tu posición y controles de zoom.
 - **Tierra:** ilustración de un globo planetario en una vista espacial.
 - Usa **− Zoom** y **+ Zoom** para cambiar la escala; pulsa **Esc** para cerrar.
